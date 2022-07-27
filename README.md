@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Links
 
-- GitHub URL: [GitHub Repo] (https://github.com/DevUKay/Website_Hero-Design_Challenge.git)
+- GitHub URL: [GitHub Repository](https://github.com/DevUKay/Website_Hero-Design_Challenge.git)
 
-- Live Site URL: [Click HERE] (https://devukay.github.io/Website_Hero-Design_Challenge/)
+- Live Site URL: [Click HERE](https://devukay.github.io/Website_Hero-Design_Challenge/)
 
 ### Built with
 

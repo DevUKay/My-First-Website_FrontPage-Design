@@ -27,8 +27,7 @@ nav {
     align-items: center;
     text-align: center;
     font-weight: 700;
-    
-    
+        
 }
 .btn{
     background-color: #2bd7a2;
@@ -38,6 +37,9 @@ nav {
     font-weight: 600;
     cursor: pointer;
     
+}
+.login{
+    font-size: 1.2rem;
 }
 .login:hover{
     transition: .2s;
@@ -54,12 +56,13 @@ ul li {
     list-style: none;
     display: inline-block;
     padding-right: 4rem;
-    color: white;
+    /* color: white; */
+    
 }
 
 li:hover{
-    transition: .2s;
-    transform: scale(1.2);
+    /* transform: scale(1.2);
+    transition: .2s; */
     color: #2bd7a2;
 }
     
@@ -100,7 +103,7 @@ h1{
 span{ color:#2bd7a2}
 
 p{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     color:white;
     font-weight: 300;
 }

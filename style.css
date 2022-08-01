@@ -449,7 +449,7 @@ font-weight: bold;
     }
 
     }
-
+/* //////////////////////////////////////// 950px  ///////     */
 
     @media (max-width: 950px) {
         nav ul li {      
@@ -548,7 +548,7 @@ font-weight: bold;
     
     
         }
-/* ///////////////////////////////////////////     */
+        /* //////////////////////////////////////// 550px  ///////     */
         @media(max-width:550px){
 
             nav ul li {      
@@ -586,6 +586,7 @@ font-weight: bold;
             }
             .left-info{
                 display: inline-block;
+                
                 padding: 3rem 0 2rem 0;
                 z-index: 2;
                 text-align: center;
@@ -600,7 +601,7 @@ font-weight: bold;
                 justify-content: flex-end;
                 /* width: 34.375rem; */
                 /* width: 60%; */
-                height: 35rem;
+                height: 25rem;
                 z-index: -1;
                 flex-wrap: wrap;
                 

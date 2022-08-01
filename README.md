@@ -45,7 +45,7 @@ CSS Grid
 
 ### Continued development
 
-i am still a work in progress...
+The Initial plan was to create just a hero section and then the following day i thought, why not design the entire page, so i design a layout mockup with figma, and tried to code it, i think i did a good job ;) ...it's my first full page design in HTML and CSS...i am just getting started.
 
 ## Author
 

@@ -1,3 +1,37 @@
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+
+  /* Preferred box-sizing value */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+    Remove list styles (bullets/numbers)
+    in case you use it with normalize.css
+  */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* For images to not be able to exceed their container */
+  img {
+    max-width: 100%;
+  }
+  
+  /* Removes spacing between cells in tables */
+  table {
+    border-collapse: collapse;
+  }
+  
+  /* Revert the 'white-space' property for textarea elements on Safari */
+  textarea {
+    white-space: revert;
+  }
+
 *,
 ::after,
 ::before {
@@ -7,10 +41,7 @@
   box-sizing: border-box;
 }
 
-img {
-    display: block;
-    /* width: 100%; */
-}
+
 
 
     body{
@@ -451,16 +482,21 @@ font-weight: bold;
             overflow-x: hidden;
         }
         nav ul li {      
-            visibility: hidden;
+            /* visibility: hidden; */
+            display: none;
         }
         .side-btn{
             visibility: hidden;
         }
-        .logo{
-            padding-left: 9rem ;
+        nav .logo{
+            /* padding-left: 9rem ; */
+            justify-content: center;
+            display: flex;
+            align-items: center;
         }
         .hamburger{
-            visibility:visible;
+            /* visibility:visible; */
+            display: none;
             height: 35px;
             margin-left: 2rem;
         }
@@ -544,16 +580,24 @@ font-weight: bold;
             body{
                 overflow-x: hidden;
             }
+            img {
+                display: block;
+                /* width: 100%; */
+            }
 
             nav ul li {      
-                visibility: hidden;
+                /* visibility: hidden; */
+                display: none;
                 margin:0;
+                /* padding: 0; */
             }
             .side-btn{
                 visibility: hidden;
             }
             .logo{
                 padding-left: 9rem ;
+                justify-content: center;
+                display:flex;
             }
             p{
                 padding-bottom:1rem;
